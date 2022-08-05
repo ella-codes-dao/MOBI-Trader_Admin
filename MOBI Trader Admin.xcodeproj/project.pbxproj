@@ -7,19 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB05FA8F289C5EC900E97036 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05FA8E289C5EC900E97036 /* SignInView.swift */; };
+		BB16DB96289C929A0080E5A3 /* ClientsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16DB95289C929A0080E5A3 /* ClientsListView.swift */; };
+		BB16DB9A289C9D850080E5A3 /* NewClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16DB99289C9D850080E5A3 /* NewClientView.swift */; };
+		BB16DB9C289CA5410080E5A3 /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16DB9B289CA5410080E5A3 /* ClientModel.swift */; };
+		BB16DB9E289CB2D10080E5A3 /* NewClientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB16DB9D289CB2D10080E5A3 /* NewClientViewModel.swift */; };
 		BB54BBD8289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54BBD7289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift */; };
 		BB54BBDA289C47CC006E82C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54BBD9289C47CC006E82C7 /* ContentView.swift */; };
 		BB54BBDC289C47CE006E82C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB54BBDB289C47CE006E82C7 /* Assets.xcassets */; };
 		BB54BBE0289C47CE006E82C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB54BBDF289C47CE006E82C7 /* Preview Assets.xcassets */; };
+		BB54BBFA289C4956006E82C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB54BBF9289C4956006E82C7 /* GoogleService-Info.plist */; };
+		BB54BC15289C5158006E82C7 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54BC14289C5158006E82C7 /* AuthViewModel.swift */; };
+		BB54BC18289C5315006E82C7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC17289C5315006E82C7 /* FirebaseAnalytics */; };
+		BB54BC1A289C5315006E82C7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC19289C5315006E82C7 /* FirebaseAnalyticsSwift */; };
+		BB54BC1C289C5315006E82C7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC1B289C5315006E82C7 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		BB54BC1E289C5315006E82C7 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC1D289C5315006E82C7 /* FirebaseAppCheck */; };
+		BB54BC20289C5315006E82C7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC1F289C5315006E82C7 /* FirebaseAuth */; };
+		BB54BC22289C5315006E82C7 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC21289C5315006E82C7 /* FirebaseAuthCombine-Community */; };
+		BB54BC24289C5315006E82C7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC23289C5315006E82C7 /* FirebaseFirestore */; };
+		BB54BC26289C5315006E82C7 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC25289C5315006E82C7 /* FirebaseFirestoreCombine-Community */; };
+		BB54BC28289C5315006E82C7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC27289C5315006E82C7 /* FirebaseFirestoreSwift */; };
+		BB54BC2A289C5315006E82C7 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC29289C5315006E82C7 /* FirebaseFunctions */; };
+		BB54BC2C289C5315006E82C7 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC2B289C5315006E82C7 /* FirebaseFunctionsCombine-Community */; };
+		BB54BC31289C557F006E82C7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54BC30289C557F006E82C7 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB05FA8E289C5EC900E97036 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		BB16DB95289C929A0080E5A3 /* ClientsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsListView.swift; sourceTree = "<group>"; };
+		BB16DB99289C9D850080E5A3 /* NewClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClientView.swift; sourceTree = "<group>"; };
+		BB16DB9B289CA5410080E5A3 /* ClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		BB16DB9D289CB2D10080E5A3 /* NewClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClientViewModel.swift; sourceTree = "<group>"; };
 		BB54BBD4289C47CC006E82C7 /* MOBI Trader Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MOBI Trader Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB54BBD7289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOBI_Trader_AdminApp.swift; sourceTree = "<group>"; };
 		BB54BBD9289C47CC006E82C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB54BBDB289C47CE006E82C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB54BBDD289C47CE006E82C7 /* MOBI_Trader_Admin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MOBI_Trader_Admin.entitlements; sourceTree = "<group>"; };
 		BB54BBDF289C47CE006E82C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB54BBF9289C4956006E82C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB54BC14289C5158006E82C7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		BB54BC30289C557F006E82C7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +54,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB54BC1E289C5315006E82C7 /* FirebaseAppCheck in Frameworks */,
+				BB54BC26289C5315006E82C7 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				BB54BC22289C5315006E82C7 /* FirebaseAuthCombine-Community in Frameworks */,
+				BB54BC20289C5315006E82C7 /* FirebaseAuth in Frameworks */,
+				BB54BC1A289C5315006E82C7 /* FirebaseAnalyticsSwift in Frameworks */,
+				BB54BC1C289C5315006E82C7 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				BB54BC18289C5315006E82C7 /* FirebaseAnalytics in Frameworks */,
+				BB54BC2A289C5315006E82C7 /* FirebaseFunctions in Frameworks */,
+				BB54BC24289C5315006E82C7 /* FirebaseFirestore in Frameworks */,
+				BB54BC2C289C5315006E82C7 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				BB54BC28289C5315006E82C7 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB16DB94289C914C0080E5A3 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				BB16DB95289C929A0080E5A3 /* ClientsListView.swift */,
+				BB16DB99289C9D850080E5A3 /* NewClientView.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
 		BB54BBCB289C47CC006E82C7 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +99,10 @@
 		BB54BBD6289C47CC006E82C7 /* MOBI Trader Admin */ = {
 			isa = PBXGroup;
 			children = (
-				BB54BBD7289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift */,
-				BB54BBD9289C47CC006E82C7 /* ContentView.swift */,
-				BB54BBDB289C47CE006E82C7 /* Assets.xcassets */,
+				BB54BC2D289C53E0006E82C7 /* Models */,
+				BB54BC13289C5140006E82C7 /* View Models */,
+				BB54BC12289C5136006E82C7 /* Views */,
+				BB54BC11289C5124006E82C7 /* Misc */,
 				BB54BBDD289C47CE006E82C7 /* MOBI_Trader_Admin.entitlements */,
 				BB54BBDE289C47CE006E82C7 /* Preview Content */,
 			);
@@ -67,6 +115,44 @@
 				BB54BBDF289C47CE006E82C7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB54BC11289C5124006E82C7 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				BB54BBF9289C4956006E82C7 /* GoogleService-Info.plist */,
+				BB54BBD7289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift */,
+				BB54BBDB289C47CE006E82C7 /* Assets.xcassets */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		BB54BC12289C5136006E82C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB54BBD9289C47CC006E82C7 /* ContentView.swift */,
+				BB05FA8E289C5EC900E97036 /* SignInView.swift */,
+				BB16DB94289C914C0080E5A3 /* Clients */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB54BC13289C5140006E82C7 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB54BC14289C5158006E82C7 /* AuthViewModel.swift */,
+				BB16DB9D289CB2D10080E5A3 /* NewClientViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		BB54BC2D289C53E0006E82C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB54BC30289C557F006E82C7 /* UserModel.swift */,
+				BB16DB9B289CA5410080E5A3 /* ClientModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +171,19 @@
 			dependencies = (
 			);
 			name = "MOBI Trader Admin";
+			packageProductDependencies = (
+				BB54BC17289C5315006E82C7 /* FirebaseAnalytics */,
+				BB54BC19289C5315006E82C7 /* FirebaseAnalyticsSwift */,
+				BB54BC1B289C5315006E82C7 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				BB54BC1D289C5315006E82C7 /* FirebaseAppCheck */,
+				BB54BC1F289C5315006E82C7 /* FirebaseAuth */,
+				BB54BC21289C5315006E82C7 /* FirebaseAuthCombine-Community */,
+				BB54BC23289C5315006E82C7 /* FirebaseFirestore */,
+				BB54BC25289C5315006E82C7 /* FirebaseFirestoreCombine-Community */,
+				BB54BC27289C5315006E82C7 /* FirebaseFirestoreSwift */,
+				BB54BC29289C5315006E82C7 /* FirebaseFunctions */,
+				BB54BC2B289C5315006E82C7 /* FirebaseFunctionsCombine-Community */,
+			);
 			productName = "MOBI Trader Admin";
 			productReference = BB54BBD4289C47CC006E82C7 /* MOBI Trader Admin.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +212,9 @@
 				Base,
 			);
 			mainGroup = BB54BBCB289C47CC006E82C7;
+			packageReferences = (
+				BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = BB54BBD5289C47CC006E82C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +231,7 @@
 			files = (
 				BB54BBE0289C47CE006E82C7 /* Preview Assets.xcassets in Resources */,
 				BB54BBDC289C47CE006E82C7 /* Assets.xcassets in Resources */,
+				BB54BBFA289C4956006E82C7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +243,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB54BBDA289C47CC006E82C7 /* ContentView.swift in Sources */,
+				BB16DB9A289C9D850080E5A3 /* NewClientView.swift in Sources */,
+				BB16DB96289C929A0080E5A3 /* ClientsListView.swift in Sources */,
+				BB16DB9E289CB2D10080E5A3 /* NewClientViewModel.swift in Sources */,
 				BB54BBD8289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift in Sources */,
+				BB16DB9C289CA5410080E5A3 /* ClientModel.swift in Sources */,
+				BB54BC31289C557F006E82C7 /* UserModel.swift in Sources */,
+				BB54BC15289C5158006E82C7 /* AuthViewModel.swift in Sources */,
+				BB05FA8F289C5EC900E97036 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +379,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MOBI-Trader-Admin-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MOBI Trader - Admin";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -279,18 +392,20 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.eurekadao.MOBI-Trader-Admin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -307,6 +422,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MOBI-Trader-Admin-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "MOBI Trader - Admin";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,18 +435,20 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.eurekadao.MOBI-Trader-Admin";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -354,6 +474,75 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB54BC17289C5315006E82C7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BB54BC19289C5315006E82C7 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		BB54BC1B289C5315006E82C7 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		BB54BC1D289C5315006E82C7 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		BB54BC1F289C5315006E82C7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		BB54BC21289C5315006E82C7 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		BB54BC23289C5315006E82C7 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		BB54BC25289C5315006E82C7 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		BB54BC27289C5315006E82C7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		BB54BC29289C5315006E82C7 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		BB54BC2B289C5315006E82C7 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB54BC16289C5314006E82C7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB54BBCC289C47CC006E82C7 /* Project object */;
 }
