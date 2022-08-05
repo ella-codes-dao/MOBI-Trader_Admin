@@ -31,6 +31,9 @@ struct ContentView: View {
                         Text("Settings")
                     }
                 }.listStyle(SidebarListStyle())
+                Button(action: { authModel.signOut() }) {
+                    Text("Sign Out")
+                }
             }
         } else {
             SignInView()

@@ -30,6 +30,12 @@
 		BB54BC2A289C5315006E82C7 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC29289C5315006E82C7 /* FirebaseFunctions */; };
 		BB54BC2C289C5315006E82C7 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = BB54BC2B289C5315006E82C7 /* FirebaseFunctionsCombine-Community */; };
 		BB54BC31289C557F006E82C7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB54BC30289C557F006E82C7 /* UserModel.swift */; };
+		BBCC8671289CDDF600277884 /* FirebaseResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC8670289CDDF600277884 /* FirebaseResults.swift */; };
+		BBCC8673289CE36800277884 /* ClientListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC8672289CE36800277884 /* ClientListViewModel.swift */; };
+		BBCC8675289CEE2100277884 /* ClientDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC8674289CEE2100277884 /* ClientDetailView.swift */; };
+		BBCC8678289CEFFA00277884 /* ClientDetailGeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC8677289CEFFA00277884 /* ClientDetailGeneralView.swift */; };
+		BBCC867A289CFA6400277884 /* OptionalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC8679289CFA6400277884 /* OptionalTextField.swift */; };
+		BBD1787D289D03400032B08E /* ClientExchangeConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD1787C289D03400032B08E /* ClientExchangeConnectionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +53,12 @@
 		BB54BBF9289C4956006E82C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BB54BC14289C5158006E82C7 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		BB54BC30289C557F006E82C7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BBCC8670289CDDF600277884 /* FirebaseResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseResults.swift; sourceTree = "<group>"; };
+		BBCC8672289CE36800277884 /* ClientListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientListViewModel.swift; sourceTree = "<group>"; };
+		BBCC8674289CEE2100277884 /* ClientDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailView.swift; sourceTree = "<group>"; };
+		BBCC8677289CEFFA00277884 /* ClientDetailGeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDetailGeneralView.swift; sourceTree = "<group>"; };
+		BBCC8679289CFA6400277884 /* OptionalTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTextField.swift; sourceTree = "<group>"; };
+		BBD1787C289D03400032B08E /* ClientExchangeConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientExchangeConnectionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 		BB16DB94289C914C0080E5A3 /* Clients */ = {
 			isa = PBXGroup;
 			children = (
+				BBCC8676289CEE2700277884 /* Detail View */,
 				BB16DB95289C929A0080E5A3 /* ClientsListView.swift */,
 				BB16DB99289C9D850080E5A3 /* NewClientView.swift */,
 			);
@@ -123,6 +136,7 @@
 				BB54BBF9289C4956006E82C7 /* GoogleService-Info.plist */,
 				BB54BBD7289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift */,
 				BB54BBDB289C47CE006E82C7 /* Assets.xcassets */,
+				BBCC8679289CFA6400277884 /* OptionalTextField.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -130,9 +144,8 @@
 		BB54BC12289C5136006E82C7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BB54BBD9289C47CC006E82C7 /* ContentView.swift */,
-				BB05FA8E289C5EC900E97036 /* SignInView.swift */,
 				BB16DB94289C914C0080E5A3 /* Clients */,
+				BBCC866F289CDC5F00277884 /* Misc */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			children = (
 				BB54BC14289C5158006E82C7 /* AuthViewModel.swift */,
 				BB16DB9D289CB2D10080E5A3 /* NewClientViewModel.swift */,
+				BBCC8672289CE36800277884 /* ClientListViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -151,8 +165,44 @@
 			children = (
 				BB54BC30289C557F006E82C7 /* UserModel.swift */,
 				BB16DB9B289CA5410080E5A3 /* ClientModel.swift */,
+				BBCC8670289CDDF600277884 /* FirebaseResults.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BBCC866F289CDC5F00277884 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				BB54BBD9289C47CC006E82C7 /* ContentView.swift */,
+				BB05FA8E289C5EC900E97036 /* SignInView.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		BBCC8676289CEE2700277884 /* Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				BBD1787B289D03060032B08E /* General */,
+				BBD1787A289D02EC0032B08E /* Exchanges */,
+				BBCC8674289CEE2100277884 /* ClientDetailView.swift */,
+			);
+			path = "Detail View";
+			sourceTree = "<group>";
+		};
+		BBD1787A289D02EC0032B08E /* Exchanges */ = {
+			isa = PBXGroup;
+			children = (
+				BBD1787C289D03400032B08E /* ClientExchangeConnectionsView.swift */,
+			);
+			path = Exchanges;
+			sourceTree = "<group>";
+		};
+		BBD1787B289D03060032B08E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BBCC8677289CEFFA00277884 /* ClientDetailGeneralView.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,14 +292,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCC8678289CEFFA00277884 /* ClientDetailGeneralView.swift in Sources */,
 				BB54BBDA289C47CC006E82C7 /* ContentView.swift in Sources */,
 				BB16DB9A289C9D850080E5A3 /* NewClientView.swift in Sources */,
+				BBD1787D289D03400032B08E /* ClientExchangeConnectionsView.swift in Sources */,
 				BB16DB96289C929A0080E5A3 /* ClientsListView.swift in Sources */,
+				BBCC8671289CDDF600277884 /* FirebaseResults.swift in Sources */,
 				BB16DB9E289CB2D10080E5A3 /* NewClientViewModel.swift in Sources */,
+				BBCC8673289CE36800277884 /* ClientListViewModel.swift in Sources */,
+				BBCC867A289CFA6400277884 /* OptionalTextField.swift in Sources */,
 				BB54BBD8289C47CC006E82C7 /* MOBI_Trader_AdminApp.swift in Sources */,
 				BB16DB9C289CA5410080E5A3 /* ClientModel.swift in Sources */,
 				BB54BC31289C557F006E82C7 /* UserModel.swift in Sources */,
 				BB54BC15289C5158006E82C7 /* AuthViewModel.swift in Sources */,
+				BBCC8675289CEE2100277884 /* ClientDetailView.swift in Sources */,
 				BB05FA8F289C5EC900E97036 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "MOBI Trader Admin/MOBI_Trader_Admin.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -414,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "MOBI Trader Admin/MOBI_Trader_Admin.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

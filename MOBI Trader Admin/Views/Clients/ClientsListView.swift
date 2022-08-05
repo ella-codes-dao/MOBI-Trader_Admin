@@ -9,20 +9,18 @@ import SwiftUI
 
 struct ClientsListView: View {
     @EnvironmentObject var authModel: AuthViewModel
+    @ObservedObject var clientsModel = ClientListViewModel()
     
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink(destination: Text("Client Details")) {
-                    Text("Client 1")
-                }
-                NavigationLink(destination: Text("Client Details")) {
-                    Text("Client 2")
-                }
-                NavigationLink(destination: Text("Client Details")) {
-                    Text("Client 3")
+            List(clientsModel.clients) { client in
+                NavigationLink(destination: ClientDetailView(client: client)) {
+                    Text(client.displayName ?? "Error Getting Name")
                 }
             }.listStyle(PlainListStyle())
+        }
+        .onAppear {
+            clientsModel.getClients(tenantID: authModel.userInfo.tenantID!)
         }
     }
 }

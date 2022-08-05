@@ -8,11 +8,11 @@
 import Foundation
 import FirebaseFirestoreSwift
 
-struct Client: Codable {
+struct Client: Identifiable, Codable {
     @DocumentID var id: String?
     var firstName: String?
     var lastName: String?
-    var preferredName: String?
+    var displayName: String?
     var photoURL: URL?
     var email: String?
     var phoneNumber: String?

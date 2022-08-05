@@ -11,6 +11,8 @@ struct NewClientView: View {
     @EnvironmentObject var authModel: AuthViewModel
     @ObservedObject var newClientModel = NewClientViewModel()
     @State private var isPerformingTask = false
+    @State private var showError = false
+    @State private var errorMsg = ""
     
     @State var firstName = ""
     @State var lastName = ""
@@ -53,6 +55,10 @@ struct NewClientView: View {
                         Text("Create Client")
                     }
                     .disabled(isPerformingTask)
+                    .alert("Error", isPresented: $showError) {
+                        Text(errorMsg)
+                    }
+
                 }
             }
         }
@@ -63,9 +69,14 @@ struct NewClientView: View {
         let clientAddress = ClientAddress(address1: address1, address2: address2, city: city, state: state, zip: zip)
         let client = Client(firstName: firstName, lastName: lastName, email: email, phoneNumber: phoneNumber, clientAddress: clientAddress)
         
-        await newClientModel.createNewClient(client: client)
+        let newclient = await newClientModel.createNewClient(client: client)
         
-        authModel.newClientActive = false
-        authModel.clientsActive = true
+        if (newclient.status) {
+            authModel.newClientActive = false
+            authModel.clientsActive = true
+        } else {
+            errorMsg = newclient.msg ?? "Generic User Creation Error"
+            showError = true
+        }
     }
 }
