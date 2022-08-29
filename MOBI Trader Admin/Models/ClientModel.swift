@@ -17,6 +17,7 @@ struct Client: Identifiable, Codable {
     var email: String?
     var phoneNumber: String?
     var clientAddress: ClientAddress?
+    var tradingLevel: ClientTradingLevel?
     
 }
 
@@ -26,4 +27,12 @@ struct ClientAddress: Codable {
     var city: String?
     var state: String?
     var zip: String?
+}
+
+enum ClientTradingLevel: String, Codable {
+    case founder = "Founding Member"
+    case governor = "Governance Board Member"
+    case earlyAdopter = "Early Investor/Adopter"
+    case agent = "Trading Agent"
+    case member = "DAO Member"
 }

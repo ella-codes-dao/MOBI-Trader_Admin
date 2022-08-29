@@ -18,6 +18,7 @@ struct NewClientView: View {
     @State var lastName = ""
     @State var email = ""
     @State var phoneNumber = ""
+    @State var tradingLevel: ClientTradingLevel = .member
     @State var address1 = ""
     @State var address2 = ""
     @State var city = ""
@@ -31,6 +32,13 @@ struct NewClientView: View {
                 TextField("Last Name", text: $lastName)
                 TextField("Email", text: $email)
                 TextField("Mobile Number", text: $phoneNumber)
+                Picker("Trading Level", selection: $tradingLevel) {
+                    Text(ClientTradingLevel.founder.rawValue).tag(ClientTradingLevel.founder)
+                    Text(ClientTradingLevel.governor.rawValue).tag(ClientTradingLevel.governor)
+                    Text(ClientTradingLevel.earlyAdopter.rawValue).tag(ClientTradingLevel.earlyAdopter)
+                    Text(ClientTradingLevel.agent.rawValue).tag(ClientTradingLevel.agent)
+                    Text(ClientTradingLevel.member.rawValue).tag(ClientTradingLevel.member)
+                }
             }
             .padding(5)
             
@@ -67,7 +75,7 @@ struct NewClientView: View {
     
     func saveClient() async {
         let clientAddress = ClientAddress(address1: address1, address2: address2, city: city, state: state, zip: zip)
-        let client = Client(firstName: firstName, lastName: lastName, email: email, phoneNumber: phoneNumber, clientAddress: clientAddress)
+        let client = Client(firstName: firstName, lastName: lastName, email: email, phoneNumber: phoneNumber, clientAddress: clientAddress, tradingLevel: tradingLevel)
         
         let newclient = await newClientModel.createNewClient(client: client)
         

@@ -36,6 +36,7 @@
 		BBCC867A289CFA6400277884 /* OptionalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCC8679289CFA6400277884 /* OptionalTextField.swift */; };
 		BBD1787D289D03400032B08E /* ClientExchangeConnectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD1787C289D03400032B08E /* ClientExchangeConnectionsView.swift */; };
 		BBD6776228A18D0C00B15A45 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBD6776128A18D0C00B15A45 /* GoogleService-Info.plist */; };
+		BBD6776D28A1DEE500B15A45 /* UpdateClientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6776C28A1DEE500B15A45 /* UpdateClientViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		BBCC8679289CFA6400277884 /* OptionalTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTextField.swift; sourceTree = "<group>"; };
 		BBD1787C289D03400032B08E /* ClientExchangeConnectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientExchangeConnectionsView.swift; sourceTree = "<group>"; };
 		BBD6776128A18D0C00B15A45 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BBD6776C28A1DEE500B15A45 /* UpdateClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateClientViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				BB54BC14289C5158006E82C7 /* AuthViewModel.swift */,
 				BB16DB9D289CB2D10080E5A3 /* NewClientViewModel.swift */,
 				BBCC8672289CE36800277884 /* ClientListViewModel.swift */,
+				BBD6776C28A1DEE500B15A45 /* UpdateClientViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				BB54BBDA289C47CC006E82C7 /* ContentView.swift in Sources */,
 				BB16DB9A289C9D850080E5A3 /* NewClientView.swift in Sources */,
 				BBD1787D289D03400032B08E /* ClientExchangeConnectionsView.swift in Sources */,
+				BBD6776D28A1DEE500B15A45 /* UpdateClientViewModel.swift in Sources */,
 				BB16DB96289C929A0080E5A3 /* ClientsListView.swift in Sources */,
 				BBCC8671289CDDF600277884 /* FirebaseResults.swift in Sources */,
 				BB16DB9E289CB2D10080E5A3 /* NewClientViewModel.swift in Sources */,
@@ -363,6 +367,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -415,6 +421,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
